@@ -22,9 +22,35 @@ console.log(yourNameis);*/
 
 /*String Type Data*/
 
-let strtype = `Hello fahim`;
+let strType = `Hello fahim`;  /*its called (``) Backtic*/
 
-console.log(strtype);
+console.log(strType);
 
-alert(typeof strtype);
+alert(typeof strType);
+
+/*Number Type Variable*/
+
+let numType = 513989537808;
+
+alert(numType);
+console.log(typeof numType);
+
+/*Boolean Type Data*/
+
+let bolType = true;
+
+console.log(typeof bolType);
+
+
+/*javascript Upper & Lower Case Methods*/
+
+let boroLekha = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor fugiat voluptatibus libero et possimus perferendis.";
+
+console.log(boroLekha.toUpperCase());
+
+let chotoLekha = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor fugiat voluptatibus libero et possimus perferendis.";
+
+console.log(chotoLekha.toLowerCase());
+
+
     
