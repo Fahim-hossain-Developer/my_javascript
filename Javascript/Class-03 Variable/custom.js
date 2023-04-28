@@ -52,5 +52,16 @@ let chotoLekha = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolo
 
 console.log(chotoLekha.toLowerCase());
 
+/*Indexof & Split Methods*/
+
+//let myFriends = " Fahim , nasim , Sattar , Ratul , Rohim ";//
+
+let myFriends = "Fahim nasim  Sattar  Ratul  Rohim ";
+
+console.log(myFriends.split("nasim"));
+
+
+console.log(myFriends.indexOf("n"));
+
 
     
