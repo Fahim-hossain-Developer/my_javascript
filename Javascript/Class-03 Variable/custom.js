@@ -60,8 +60,22 @@ let myFriends = "Fahim nasim  Sattar  Ratul  Rohim ";
 
 console.log(myFriends.split("nasim"));
 
-
 console.log(myFriends.indexOf("n"));
+
+/*Predefined function*/
+
+let apple = "100.5563";
+let guava = 80;
+
+apple = parseInt(apple);   /*In parseInt  100.5563 Doshomik Show Kre na. parseFloat a dhoshomik show kre*/
+
+console.log( apple + guava);
+
+let x = 70;
+
+let y = 50;
+
+x = "" + (x); /* Number data k string a poriborton kora*/
 
 
     
