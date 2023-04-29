@@ -22,60 +22,98 @@ console.log(yourNameis);*/
 
 /*String Type Data*/
 
-let strType = `Hello fahim`;  /*its called (``) Backtic*/
+// let strType = `Hello fahim`;  /*its called (``) Backtic*/
 
-console.log(strType);
+// console.log(strType);
 
-alert(typeof strType);
+// alert(typeof strType);
 
 /*Number Type Variable*/
 
-let numType = 513989537808;
+// let numType = 513989537808;
 
-alert(numType);
-console.log(typeof numType);
+// alert(numType);
+// console.log(typeof numType);
 
 /*Boolean Type Data*/
 
-let bolType = true;
+// let bolType = true;
 
-console.log(typeof bolType);
+// console.log(typeof bolType);
 
 
 /*javascript Upper & Lower Case Methods*/
 
-let boroLekha = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor fugiat voluptatibus libero et possimus perferendis.";
+// let boroLekha = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor fugiat voluptatibus libero et possimus perferendis.";
 
-console.log(boroLekha.toUpperCase());
+// console.log(boroLekha.toUpperCase());
 
-let chotoLekha = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor fugiat voluptatibus libero et possimus perferendis.";
+// let chotoLekha = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor fugiat voluptatibus libero et possimus perferendis.";
 
-console.log(chotoLekha.toLowerCase());
+// console.log(chotoLekha.toLowerCase());
 
 /*Indexof & Split Methods*/
 
 //let myFriends = " Fahim , nasim , Sattar , Ratul , Rohim ";//
 
-let myFriends = "Fahim nasim  Sattar  Ratul  Rohim ";
+// let myFriends = "Fahim nasim  Sattar  Ratul  Rohim ";
 
-console.log(myFriends.split("nasim"));
+// console.log(myFriends.split("nasim"));
 
-console.log(myFriends.indexOf("n"));
+// console.log(myFriends.indexOf("n"));
 
 /*Predefined function*/
 
-let apple = "100.5563";
-let guava = 80;
+// let apple = "100.5563";
+// let guava = 80;
 
-apple = parseInt(apple);   /*In parseInt  100.5563 Doshomik Show Kre na. parseFloat a dhoshomik show kre*/
+// apple = parseInt(apple);   /*In parseInt  100.5563 Doshomik Show Kre na. parseFloat a dhoshomik show kre*/
 
-console.log( apple + guava);
+// console.log( apple + guava);
 
-let x = 70;
+// let x = 70;
 
-let y = 50;
+// let y = 50;
 
-x = "" + (x); /* Number data k string a poriborton kora*/
+// x = "" + (x); /* Number data k string a poriborton kora*/
+
+/*Mathmetical Operators*/
+
+// % Its Called Modulas
+
+let number1 = 85;
+let number2 = 35;
+
+let result = number1 + number2;
+
+console.log(result);
+
+let karim = 95;
+let rahim = 45;
+
+let total = karim - rahim;
+
+console.log(total);
+
+
+let numBer = 60;
+let numBer2 = 40;
+
+console.log(numBer * numBer2);
+
+let myNumber = 5;
+let myNumber2 = 4;
+
+console.log(myNumber / myNumber2);
+
+let yourNumber1 = 400;
+
+let yourNumber2 = 200;
+
+console.log(yourNumber1 % yourNumber2);
+
+
+
 
 
     
