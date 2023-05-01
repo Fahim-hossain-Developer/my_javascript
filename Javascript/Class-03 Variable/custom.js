@@ -81,36 +81,75 @@ console.log(yourNameis);*/
 
 // % Its Called Modulas
 
-let number1 = 85;
-let number2 = 35;
+// let number1 = 85;
+// let number2 = 35;
 
-let result = number1 + number2;
+// let result = number1 + number2;
 
-console.log(result);
+// console.log(result);
 
-let karim = 95;
-let rahim = 45;
+// let karim = 95;
+// let rahim = 45;
 
-let total = karim - rahim;
+// let total = karim - rahim;
 
-console.log(total);
+// console.log(total);
 
 
-let numBer = 60;
-let numBer2 = 40;
+// let numBer = 60;
+// let numBer2 = 40;
 
-console.log(numBer * numBer2);
+// console.log(numBer * numBer2);
 
-let myNumber = 5;
-let myNumber2 = 4;
+// let myNumber = 5;
+// let myNumber2 = 4;
 
-console.log(myNumber / myNumber2);
+// console.log(myNumber / myNumber2);
 
-let yourNumber1 = 400;
+// let yourNumber1 = 400;
 
-let yourNumber2 = 200;
+// let yourNumber2 = 200;
 
-console.log(yourNumber1 % yourNumber2);
+// console.log(yourNumber1 % yourNumber2);
+
+/*Predefined Function*/
+
+
+// let numBer = -15;
+
+// let result = Math.abs(numBer);  Math.absolute
+
+// console.log(result);
+
+// let classStudents = 12;
+
+// let myVote = 5.4;
+
+// let result = Math.round(myVote);
+// console.log(result);
+
+// let team = 10;
+
+// let myScore = 0.44;
+
+// let totalResult = Math.ceil(myScore);
+
+// console.log(totalResult);
+
+// let team = 10;
+
+// let myScore = 0.999;
+
+// let totalResult = Math.floor(myScore);
+
+// console.log(totalResult);
+
+// let abc = Math.random();
+// console.log(abc);
+
+
+
+
 
 
 
