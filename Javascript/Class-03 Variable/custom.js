@@ -147,6 +147,23 @@ console.log(yourNameis);*/
 // let abc = Math.random();
 // console.log(abc);
 
+/* If Statement*/
+
+// let x = 10;
+// let y = 7;
+
+// if( x > y){
+//  console.log("You are right")   
+// };
+
+// if( x > y){
+// console.log("Are you Mad?");
+// };
+
+/*Else Statement*/
+
+
+
 
 
 
