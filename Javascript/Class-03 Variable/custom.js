@@ -54,9 +54,9 @@ console.log(yourNameis);*/
 
 /*Indexof & Split Methods*/
 
-//let myFriends = " Fahim , nasim , Sattar , Ratul , Rohim ";//
+// let myFriends = " Fahim , nasim , Sattar , Ratul , Rohim ";
 
-// let myFriends = "Fahim nasim  Sattar  Ratul  Rohim ";
+// let myFriends = "Fahim nasim Sattar Ratul Rohim ";
 
 // console.log(myFriends.split("nasim"));
 
@@ -76,6 +76,8 @@ console.log(yourNameis);*/
 // let y = 50;
 
 // x = "" + (x); /* Number data k string a poriborton kora*/
+
+// console.log(x+y);
 
 /*Mathmetical Operators*/
 
@@ -138,7 +140,7 @@ console.log(yourNameis);*/
 
 // let team = 10;
 
-// let myScore = 0.999;
+// let myScore = 1.999;
 
 // let totalResult = Math.floor(myScore);
 
@@ -179,21 +181,29 @@ console.log(yourNameis);*/
 
 /*switch statement*/
 
-let potatoPrice = 30;
+// let potatoPrice = 30;
 
-switch(potatoPrice){
-  case 300:
-    console.log("The result is matched");
-    break;
-  case 250:
-    console.log("The result is not matched");
-    break;
-   case 200:
-    console.log("The result should be 200");
-    break;
-   default:
-    console.log("Hello world");   
-};
+// switch(potatoPrice){
+//   case 300:
+//     console.log("The result is matched");
+//     break;
+//   case 250:
+//     console.log("The result is not matched");
+//     break;
+//    case 200:
+//     console.log("The result should be 200");
+//     break;
+//    default:
+//     console.log("Hello world");   
+// };
+
+/*Data Objects*/
+
+let todaysDate = new Date();
+
+console.log(todaysDate.toTimeString());
+
+
 
 
 
