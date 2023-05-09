@@ -216,6 +216,15 @@ console.log(yourNameis);*/
 // frnd [0] = 513989;
 // console.log(frnd)
 
+/*Array Push() pop() shift() unshift() Method*/
+
+//let hello = ["Apple" , "Mango" , "Potato"];
+// hello.push("Ginger");
+// hello.pop()
+// hello.unshift(2023);
+// hello.shift()
+//console.log(hello);
+
 
 
 
