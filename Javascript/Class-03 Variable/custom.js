@@ -199,9 +199,24 @@ console.log(yourNameis);*/
 
 /*Data Objects*/
 
-let todaysDate = new Date();
+// let todaysDate = new Date();
 
-console.log(todaysDate.toTimeString());
+// console.log(todaysDate.toLocaleDateString());
+// console.log(todaysDate.toDateString());
+// console.log(todaysDate.getMonth());
+// console.log(todaysDate.getFullYear());
+// console.log(todaysDate.getMilliseconds());
+
+/*Array*/
+
+// let jvco = ["Fahim" , "Karim" , "Riyad"];
+// console.log(jvco[2]);
+
+// let frnd = ["Fahim" , "shopon"];
+// frnd [0] = 513989;
+// console.log(frnd)
+
+
 
 
 
