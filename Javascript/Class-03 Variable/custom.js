@@ -218,16 +218,28 @@ console.log(yourNameis);*/
 
 /*Array Push() pop() shift() unshift() Method*/
 
-//let hello = ["Apple" , "Mango" , "Potato"];
+// let hello = ["Apple" , "Mango" , "Potato"];
 // hello.push("Ginger");
 // hello.pop()
 // hello.unshift(2023);
 // hello.shift()
-//console.log(hello);
+// console.log(hello);
+
+/*Array slice() and splice() Method*/
 
 
 
 
+/*JavaScript Function*/
+
+function percent(x, y){
+    let total = x * y;
+    console.log(total);
+}
+
+percent(20, 10)
+percent(5, 5)
+percent(3, 10)
 
 
 
