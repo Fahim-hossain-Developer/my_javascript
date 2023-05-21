@@ -227,19 +227,45 @@ console.log(yourNameis);*/
 
 /*Array slice() and splice() Method*/
 
+// let myFamilly = ["Fahim", "Anika", "Abbu", "Ammu"];
 
+
+// console.log(myFamilly.slice(1,3));
+
+// console.log(myFamilly.splice(0,2));
 
 
 /*JavaScript Function*/
 
-function percent(x, y){
-    let total = x * y;
-    console.log(total);
-}
+// function percent(x, y){
+//     let total = x * y;
+//     console.log(total);
+// }
 
-percent(20, 10)
-percent(5, 5)
-percent(3, 10)
+// percent(20, 10)
+// percent(5, 5)
+// percent(3, 10)
+
+/*Javascript Object*/
+
+
+
+
+
+
+
+
+/* Ternary Operators*/
+
+// (10 => 15) ? 20 : "Hello World";
+
+// let myScore = 10;
+
+// let resultIs = (myScore <= 20) ? "I am small" : "I am big";
+// console.log(resultIs)
+
+
+/* Continue & Break Statement*/
 
 
 
