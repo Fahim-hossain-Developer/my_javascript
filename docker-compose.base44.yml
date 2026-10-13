@@ -1,0 +1,43 @@
+# Base44 sandbox/dev environment for this repo.
+#
+# This project is a plain static site (HTML + JavaScript exercise files, no
+# backend and no database). Vite's dev server serves the repo root on port 3000
+# with live reload, so edits appear in the preview without rebuilding anything.
+#
+# Usage: docker compose -f docker-compose.base44.yml up -d --build
+name: my-javascript
+
+services:
+  web:
+    image: node:22
+    working_dir: /app
+    restart: on-failure
+    ports:
+      - "3000:3000"
+    environment:
+      # Supplied by the Base44 platform; passed through bare so the app can read
+      # them at runtime without baking environment-specific hostnames into files.
+      - BASE44_PREVIEW_MODE
+      # Vite >= 6.1 appends this to server.allowedHosts, so the preview's
+      # external hostname can reach the dev server.
+      - __VITE_ADDITIONAL_SERVER_ALLOWED_HOSTS
+    volumes:
+      # The cloned source is bind-mounted so edits are served straight away.
+      - ./:/app
+      # Dependencies live in a named volume, never in the working tree.
+      - web_node_modules:/app/node_modules
+    command:
+      - sh
+      - -ec
+      - |
+        npm install --no-audit --no-fund
+        exec npm run dev
+    healthcheck:
+      test: ["CMD-SHELL", "node -e \"fetch('http://127.0.0.1:3000/').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))\""]
+      interval: 10s
+      timeout: 5s
+      start_period: 60s
+      retries: 5
+
+volumes:
+  web_node_modules:
